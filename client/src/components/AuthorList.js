@@ -9,7 +9,7 @@ const AuthorList = ({ authors }) => {
         <tr>
           <th>Image</th>
           <th>Nom</th>
-          <th>Domaine publique</th>
+          <th>Domaine public</th>
         </tr>
       </thead>
       <tbody>
