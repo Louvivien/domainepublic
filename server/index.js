@@ -12,7 +12,8 @@ app.get('/api/authors', (req, res) => {
   const name = req.query.name;
   axios.get(`https://data.bnf.fr/fr/api/results/person?term=${name}`)
     .then(response => {
-      const authors = response.data;
+      //Limit to 10 results so the response is not too long
+      const authors = response.data.slice(0, 10);
       console.log(`First general request:${JSON.stringify(authors)}`);
       
       //Variable to keep track of the current request
