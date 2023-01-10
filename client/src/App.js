@@ -3,7 +3,7 @@ import axios from 'axios';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import AuthorList from './/components/AuthorList';
 import ReactGA from 'react-ga';
-  const TRACKING_ID = "XXXX"; 
+  const TRACKING_ID = "UA-252982642-2"; 
   ReactGA.initialize(TRACKING_ID);
   ReactGA.pageview(window.location.pathname + window.location.search);
 
