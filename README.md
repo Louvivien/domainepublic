@@ -5,7 +5,7 @@ Entrer un nom pour rechercher si son oeuvre est dans le domaine public en France
 
 ### Live Demo
 
-[Domaine publique en France](https://chat-gpt-react-app-omega.vercel.app/) 
+[Domaine publique en France](https://domainepublic.vercel.app/) 
 
 
 ### Deploy
